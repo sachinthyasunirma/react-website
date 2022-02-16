@@ -1,11 +1,15 @@
 
 import './App.css';
 
+import HomeLayouthoc from './HOC/Home.hoc';
+
+import HomePage from './pages/HomePage';
+
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <HomeLayouthoc component={HomePage} path="/"/>
+    </>
   );
 }
 
